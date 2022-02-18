@@ -1,0 +1,19 @@
+$textoResaltado: (
+    funcionales: #333,
+    buenas: #666,
+    nocont: #333,
+    resultados: #666,
+    tupag: #333,
+    fundamental: #666,
+    posicionamiento: $limon,
+    mayor: #333,
+    princip:$limon,
+    adaptan: #666,
+);
+
+@each $frases, $color in $textoResaltado {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+    }
+}

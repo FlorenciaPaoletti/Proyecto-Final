@@ -1,0 +1,83 @@
+.nosotros h2 {
+    text-align: center;
+    font-size: 5rem;
+    color: $limon;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+p {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.opiniones .caja-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .caja {
+        background: white;
+        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
+        position: relative;
+        border: .1rem solid $rgba2;
+        box-shadow: 0 .5rem 1rem $rgba1;
+        flex: 1 1 30rem;
+        border-radius: .5rem;
+
+        .fa-code {
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            font-size: 8rem;
+            color: $limon;
+            opacity: .3;
+        }
+
+        .fa-bullhorn {
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            font-size: 8rem;
+            color: $limon;
+            opacity: .3;
+        }
+
+        .fa-swatchbook {
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            font-size: 8rem;
+            color: $limon;
+            opacity: .3;
+        }
+    }
+
+    .user img {
+        border-radius: 50%;
+        object-fit: cover;
+        height: 8rem;
+        width: 8rem;
+        margin-top: 2rem;
+    }
+
+    .user h3 {
+        color: $verde;
+        font-size: 2rem;
+    }
+
+    .user .stars i {
+        color: $verde;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .comentarios {
+        color: #666;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}

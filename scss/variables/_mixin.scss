@@ -1,0 +1,23 @@
+@mixin contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+
+@mixin botonera ($gradiante, $blanco, $box-shadow) {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: $gradiante;
+    font-size: 1.8rem;
+    color: $blanco;
+    cursor: pointer;
+    box-shadow: $box-shadow;
+    transition: all .3s linear;
+    &:hover {
+        transform: scale(1.1);
+    }
+}

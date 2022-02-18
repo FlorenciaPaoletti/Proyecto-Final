@@ -1,0 +1,99 @@
+@media(max-width:1200px) {
+    html{
+        font-size: 55%;
+    }
+
+    .footer .caja-contenedor {
+        margin-left: 150px;
+    }
+}
+
+@media(max-width:990px) {
+    section {
+        padding: 0 3%;
+        padding-top: 7.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .footer .caja-contenedor {
+        margin-left: 120px;
+    }
+}
+
+@media(max-width:768px) {
+    header label {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 1rem 2rem;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: .2s linear;
+        a {
+            display: block;
+            margin: 2rem 0;
+            font-size: 2rem;
+        }
+    }
+    input:checked ~ .navbar {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+    input:checked ~ label::before {
+        content: '\f00d';
+    }
+
+    .inicio {
+        flex-flow: column-reverse;
+        .image img {
+            width: 100%;
+        }
+        .content h3 {
+            font-size: 3.6rem;
+        }
+        .content p {
+            font-size: 1.5rem;
+        }
+    }
+
+    .acerca_de {
+        background-position: right;
+    }
+
+    .suscribite p {
+        width: auto;
+    }
+
+    .footer .caja-contenedor {
+        margin-left: 130px;
+    }
+
+}
+
+@media(max-width:450px) {
+    html {
+        font-size: 49%;
+    }
+
+    .acerca_de .columna .content .bottons a {
+        width: 100%;
+        text-align: center;
+        :last-child {
+            margin: 1rem 0;
+        }
+    }
+
+    .footer .caja-contenedor {
+        margin-left: 80px;
+    }
+}

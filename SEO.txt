@@ -1,0 +1,17 @@
+1- Incorporé etiquetas Meta Keywords en el Index y en todas las Pages:
+*Index: "servicios, desarrollo web, pagina, html, emprendedores, empresas"
+*Servicios: "servicio, clientes, marketing, pagina web, precios, ofertas"
+*Portfolio: "clientes, trabajo, sitios, desarrollo web, portfolio, resultados"
+*Nosotros: "equipo, trabajo, desarrolladores, programador, diseñador, estudio"
+*Contacto: "mensaje, email, telefono, clientes, presupuesto, consultas"
+
+2- Mejoré los ALT de las imágenes, tanto en el index como en las pages.
+
+3- Mejoré los titulos en index y en pages.
+
+4- Agregué etiquetas Meta Description en el index y las Pages:
+*Index: "Somos un Estudio de Desarrollo Web y Marketing al servicio de cada cliente"
+*Servicios: "Brindamos servicios web para emprendedores, empresas o profesionales"
+*Portfolio: "Trabajamos incansablemente para superar las expectativas de nuestros clientes"
+*Nosotros: "Nuestro equipo de trabajo aporta un gran compromiso y pasion en cada trabajo"
+*Contacto: "Estamos siempre a disposicion de los clientes para responder dudas y/o sugerencias."

@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem $rgba1;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    .logo {
+        @extend %logo
+    }
+    .logo span {
+        color: $limon;
+    }
+    .navbar a {
+        font-size: 1.8rem;
+        margin-left: 2rem;
+        color: $verde;
+        cursor: pointer;
+    }
+    .navbar a:hover {
+        color: $limon;
+    }
+    input {
+        display: none;
+    }
+    label {
+        font-size: 3rem;
+        color: $verde;
+        cursor: pointer;
+        visibility: hidden;
+        opacity: 0;
+    }
+}

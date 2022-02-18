@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400;600&family=Prompt:wght@200;300;500&family=Raleway:wght@300;400;500&family=Saira+Condensed:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+*::selection {
+    background: var(--limon);
+    color: white;
+}
+
+html {
+    font-size: 62.4%;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+section {
+    min-height: 100vh;
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+.heading {
+    text-align: center;
+    background: var(--verde);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+@import './variables/colores';
+@import './variables/medidas';
+@import './variables/maps';
+@import './variables/mixin';
+@import './variables/extend';
+@import './utilidades/textos';
+
+
+
+@import './header-footer/header';
+@import './secciones/index';
+@import './secciones/portfolio';
+@import './secciones/contacto';
+@import './secciones/nosotros';
+@import './secciones/servicios';
+@import './header-footer/footer';
+
+@import './utilidades/botones';
+
+@import './utilidades/media-queris';
+
